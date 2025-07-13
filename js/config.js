@@ -156,7 +156,7 @@ const API_SITES = {
     // huangcang: {
     //     api: 'https://hsckzy.vip',
     //     name: '黄色仓库',
-    //     adult: true,
+    //     adult:true
     //     detail: 'https://hsckzy.vip'
     // },
     // yutu: {
@@ -260,4 +260,5 @@ const CUSTOM_API_CONFIG = {
 };
 
 // 隐藏内置黄色采集站API的变量
-const HIDE_BUILTIN_ADULT_APIS = false;
+const HIDE_BUILTIN_ADULT_APIS = true;
+// const HIDE_BUILTIN_ADULT_APIS = false;
